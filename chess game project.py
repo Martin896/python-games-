@@ -15,7 +15,7 @@ class ChessGame(QMainwindow):
         #creating a grid layout for the chess board
         grid_layout = QGridLayout(Central_widget)
 
-        #adding labels for the chess board 
+        #adding labels for the chess board
         self.squares =[]
         for row in range(8):
             self.square.append([])
